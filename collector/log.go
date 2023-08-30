@@ -110,9 +110,12 @@ func ConfigureLogger(lOpts *LoggerOptions) {
 	if opts.Trace {
 		atomic.StoreInt32(&trace, 1)
 	}
+	SetLogger(newLogger)
+}
 
+func SetLogger(l Logger) {
 	collectorLog.Lock()
-	collectorLog.logger = newLogger
+	collectorLog.logger = l
 	collectorLog.Unlock()
 }
 
