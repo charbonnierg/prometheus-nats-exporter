@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nats-io/prometheus-nats-exporter/collector"
-	"github.com/nats-io/prometheus-nats-exporter/exporter"
+	"github.com/charbonnierg/prometheus-nats-exporter/collector"
+	"github.com/charbonnierg/prometheus-nats-exporter/exporter"
 )
 
 var (

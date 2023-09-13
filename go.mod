@@ -1,4 +1,4 @@
-module github.com/nats-io/prometheus-nats-exporter
+module github.com/charbonnierg/prometheus-nats-exporter
 
 go 1.20
 

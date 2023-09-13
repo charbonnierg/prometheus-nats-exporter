@@ -157,7 +157,7 @@ allows it to run embedded in your code.
 ```go
     // import the API like this
     import (
-      "github.com/nats-io/prometheus-nats-exporter/exporter"
+      "github.com/charbonnierg/prometheus-nats-exporter/exporter"
     )
 ```
 

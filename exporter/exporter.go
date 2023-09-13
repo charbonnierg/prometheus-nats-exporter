@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/prometheus-nats-exporter/collector"
+	"github.com/charbonnierg/prometheus-nats-exporter/collector"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"golang.org/x/crypto/bcrypt"

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	pet "github.com/nats-io/prometheus-nats-exporter/test"
+	pet "github.com/charbonnierg/prometheus-nats-exporter/test"
 )
 
 const (
